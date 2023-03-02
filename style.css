@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "MkPOP";
+    src: url("./851MkPOP_101.ttf");  format('ttf');
+}
+
+.mkpop {
+  font-family: "MkPOP";
+  letter-spacing: -0.1em;
+}
+
+body {
+  font-family: "MkPOP";
+  text-align: center;
+  background-image: url("backgrounds/default.png");
+}
+
+h1 {
+  margin-top: 50px;
+  color: red;
+  font-family: "MkPOP";
+}
+
+div.output-box {
+  width:300px; 
+  height:100px;  
+  border:3px solid deeppink;
+  background-color:white;
+  text-align: center;
+  margin:0px auto 30px;
+  position:relative;
+}
+
+div.generate-bar {
+  width:300px; 
+  margin:0px auto;
+  height:auto;
+}
+
+div.genbutton {
+  margin: 0 0 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: deeppink;
+  color: white;
+  border:3px solid deeppink;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hotpink;
+}
+
+#output {
+  color: black;
+  font-size: 30px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+#explosion-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color:red;
+  text-shadow: 2px 2px darkred;
+}
+
+#bingo-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bold;
+  color:pink;
+  text-shadow: 2px 2px deeppink;
+}
+
