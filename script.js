@@ -23,15 +23,15 @@ generateButton.addEventListener("click", () => {
   outputElement.textContent = randomString;
 
   if (randomString === "てねーる") {
-    document.body.style.backgroundImage = "url('https://github.com/kimtieuhoa/tener/blob/main/backgrounds/tener.jpg')";
+    document.body.style.backgroundImage = "url('./backgrounds/tener.jpg')";
     explosionText.style.display = "block";
     explosionText.textContent = "爆破！";
   } else if (randomString === "てててて" || randomString === "ねねねね" || randomString === "るるるる" || randomString === "ーーーー") {
-    document.body.style.backgroundImage = "url('https://github.com/kimtieuhoa/tener/blob/main/backgrounds/disney.jpeg')";
+    document.body.style.backgroundImage = "url('./backgrounds/disney.jpeg')";
     bingoText.style.display = "block";
     bingoText.textContent = "ビンゴ！";
   } else {
-    document.body.style.backgroundImage = "url('https://github.com/kimtieuhoa/tener/blob/main/backgrounds/default.png')";
+    document.body.style.backgroundImage = "url('./backgrounds/default.png')";
     explosionText.style.display = "none";
     bingoText.style.display = "none";
   }
