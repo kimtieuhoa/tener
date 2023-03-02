@@ -27,7 +27,7 @@ generateButton.addEventListener("click", () => {
     explosionText.style.display = "block";
     explosionText.textContent = "爆破！";
   } else if (randomString === "てててて" || randomString === "ねねねね" || randomString === "るるるる" || randomString === "ーーーー") {
-    document.body.style.backgroundImage = "url('./backgrounds/disney.jpeg')";
+    document.body.style.backgroundImage = "url('./backgrounds/Disney.jpg')";
     bingoText.style.display = "block";
     bingoText.textContent = "ビンゴ！";
   } else {
