@@ -11,7 +11,7 @@
 body {
   font-family: "MkPOP";
   text-align: center;
-  background-image: url("./backgrounds/default.png");
+  background-image: url("backgrounds/default.png");
 }
 
 h1 {
@@ -68,7 +68,7 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 100px;
   font-weight: bold;
   color:red;
   text-shadow: 2px 2px darkred;
@@ -80,7 +80,7 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 48px;
+  font-size: 100px;
   font-weight: bold;
   color:pink;
   text-shadow: 2px 2px deeppink;
